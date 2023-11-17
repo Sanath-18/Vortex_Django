@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/4.2/howto/deployment/wsgi/
 
 import os
 import sys
-path = os.path.expanduser('~/SANATH2004')
+path = os.path.expanduser('~/Vortex_Django')
 if path not in sys.path:
   sys.path.insert(0,path)
  os.environ['DJANGO_SETTINGS_MODULE'] = 'myprojectt.settings' 
